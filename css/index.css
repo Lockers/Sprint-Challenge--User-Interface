@@ -71,6 +71,9 @@ p {
     margin: 0 auto;
     justify-content: baseline;
 }
+.container about-page{
+    display: flex;
+}
 .container .navbar{
     display: flex;
     justify-content: space-between;
@@ -98,7 +101,7 @@ a{
 .header{
     display: flex;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
     justify-content: center;
     width: 800px;
 
@@ -109,6 +112,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 10px;
     border-bottom: 1px dashed black;
 }
 
@@ -172,7 +176,7 @@ a{
     background-color: indigo;
 }
 #box9{
-    background-color: dodgerblue;
+    background-color: Dodgerblue;
 }
 #box10{
     background-color: teal;
@@ -209,4 +213,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.h3{
+    display: flex;
+    padding: 10px;
+    margin: 0 auto; 
+}  
+.about{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
+.strategy{
+    display: flex;
+    width: 350px;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.how-we-work{
+    display: flex;
+    width: 350px;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.places-we-work{
+    display: flex;
+    width: 350px;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.collaboration{
+    display: flex;
+    width: 350px;
+    margin: auto;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
