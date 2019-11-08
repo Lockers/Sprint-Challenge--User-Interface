@@ -277,7 +277,15 @@ header {
         width: 80%;
         margin: 2rem auto;
     }
+    form {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    h1 {
+        text-align: center;
+    }
 }
+
 
 input[type=text], select {
   width: 100%;
@@ -303,4 +311,5 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 
